@@ -1,3 +1,6 @@
+/* . function play(userChoice)
+यह play नाम का एक फ़ंक्शन है।
+इसे यूज़र का चयन (जैसे: "stone", "paper" या "scissors") इनपुट के रूप में दिया जाता है।*/
 function play(userChoice) {
   var choices = ['stone', 'paper', 'scissors'];
   var randomIndex = Math.floor(Math.random() * 3);
